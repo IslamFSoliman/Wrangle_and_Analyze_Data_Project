@@ -42,7 +42,8 @@ Programmatic assessment: pandas' functions and/or methods are used to assess the
 At least eight (8) data quality issues and two (2) tidiness issues are detected, and include the issues to clean to satisfy the Project Motivation. Each issue is documented in one to a few sentences each.
 
 #### Cleaning Data
-This part of the data wrangling was divided in three parts: Define, code and testing the code. These three steps were on each of the issues described in the data assessment section.\
+##### This part of the data wrangling was divided in three parts:
+Define, code and testing the code. These three steps were on each of the issues described in the data assessment section.\
 First I’ve create a copy of the three original DataFrames. I wrote the codes to manipulate the copies. This allowed me to create a new copy from the original whenever needed in case of errors or mistakes, I could create another copy of the original DataFrames and continue working on the cleaning part.\
 This stage has challenged me in many ways and made me feel more comfortable cleaning data programmatically on my own.
 
@@ -50,5 +51,5 @@ This stage has challenged me in many ways and made me feel more comfortable clea
 #### Report
 ##### Two reports:
 
-Wwrangling efforts are briefly described in wrangle_report.pdf.\
-The three (3) or more insights the student found are communicated in act_report.pdf including visualization.
+Wwrangling efforts are briefly described in `wrangle_report.pdf`.\
+The three (3) or more insights the student found are communicated in `act_report.pdf` including visualization.
