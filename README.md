@@ -25,20 +25,23 @@ The following packages (libraries) need to be installed. You can install these p
 
 ### Project Specifications
 #### Code Functionality and Readability
-All project code is contained in a Jupyter Notebook named wrangle_act.ipynb and runs without errors.
+All project code is contained in a Jupyter Notebook named wrangle_act.ipynb and runs without errors.\
 The Jupyter Notebook has an intuitive, easy-to-follow logical structure. The code uses comments effectively and is interspersed with Jupyter Notebook Markdown cells. The steps of the data wrangling process (i.e. gather, assess, and clean) are clearly identified with comments or Markdown cells, as well.
 
 #### Gathering Data
 ##### This is the initial step in which we collect the data for this project from three main sources:
-1. Twitter_archive_enhanced.csv file, this file was downloaded manually and uploaded to the project workspace and finally imported to our working environment using Pandas function “pd.read_csv()” creating “archive_df”.
-2. Image_predictions.tsv file, this is the second file that was hosted on a webpage and imported from its URL using Requests library function “get()” and Pandas function “read_csv()” creating “image_predictions_df”. (Note: This file contains image predictions for the rated dogs).
-3. The final dataset was gathered from Twitter API via tweepy library, alternatively via the provided “tweet_json.txt” creating “api_df”.
+1. `Twitter_archive_enhanced.csv` file, this file was downloaded manually and uploaded to the project workspace and finally imported to our working environment using Pandas function `pd.read_csv()` creating `archive_df`.
+2. `Image_predictions.tsv` file, this is the second file that was hosted on a webpage and imported from its URL using Requests library function `get()` and Pandas function `pd.read_csv()` creating `image_predictions_df`. (Note: This file contains image predictions for the rated dogs).
+3. The final dataset was gathered from Twitter API via tweepy library, alternatively via the provided `tweet_json.txt` creating `api_df`.
 
 
 #### Assessing Data
 ##### Two types of assessment are used:
-Visual assessment: each piece of gathered data is displayed in the Jupyter Notebook for visual assessment purposes. Once displayed, data can additionally be assessed in an external application (e.g. Excel, text editor).
-Programmatic assessment: pandas' functions and/or methods are used to assess the data.
+
+##### Visual assessment:
+Each piece of gathered data is displayed in the Jupyter Notebook for visual assessment purposes. Once displayed, data can additionally be assessed in an external application (e.g. Excel, text editor).
+##### Programmatic assessment:
+`Pandas` functions and/or methods are used to assess the data.\
 At least eight (8) data quality issues and two (2) tidiness issues are detected, and include the issues to clean to satisfy the Project Motivation. Each issue is documented in one to a few sentences each.
 
 #### Cleaning Data
