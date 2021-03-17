@@ -42,16 +42,17 @@ Programmatic assessment: pandas' functions and/or methods are used to assess the
 At least eight (8) data quality issues and two (2) tidiness issues are detected, and include the issues to clean to satisfy the Project Motivation. Each issue is documented in one to a few sentences each.
 
 #### Cleaning Data
-The define, code, and test steps of the cleaning process are clearly documented.
-Copies of the original pieces of data are made prior to cleaning.
-All issues identified in the assess phase are successfully cleaned using Python and pandas.
-A tidy master dataset with all pieces of gathered data is created.
-Storing and Acting on Wrangled Data
-Save master dataset to a CSV file.
-The master dataset is analyzed using pandas in the Jupyter Notebook and at least three (3) separate insights are produced.
+The define, code, and test steps of the cleaning process are clearly documented.\
+Copies of the original pieces of data are made prior to cleaning.\
+All issues identified in the assess phase are successfully cleaned using Python and pandas.\
+A tidy master dataset with all pieces of gathered data is created.\
+Storing and Acting on Wrangled Data.\
+Save master dataset to a CSV file.\
+The master dataset is analyzed using pandas in the Jupyter Notebook and at least three (3) separate insights are produced.\
 At least one (1) labeled visualization is produced in the Jupyter Notebook using Python’s plotting libraries.
-Report
-Two reports:
 
-Wwrangling efforts are briefly described in wrangle_report.pdf.
+#### Report
+##### Two reports:
+
+Wwrangling efforts are briefly described in wrangle_report.pdf.\
 The three (3) or more insights the student found are communicated in act_report.pdf including visualization.
