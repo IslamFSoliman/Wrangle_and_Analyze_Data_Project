@@ -30,8 +30,8 @@ The Jupyter Notebook has an intuitive, easy-to-follow logical structure. The cod
 
 #### Gathering Data
 ##### This is the initial step in which we collect the data for this project from three main sources:
-1. Twitter_archive_enhanced.csv file, this file was downloaded manually and uploaded to the project workspace and finally imported to our working environment using Pandas function “pd.read_csv()” creating “archive_df”.\
-2. Image_predictions.tsv file, this is the second file that was hosted on a webpage and imported from its URL using Requests library function “get()” and Pandas function “read_csv()” creating “image_predictions_df”. (Note: This file contains image predictions for the rated dogs).\
+1. Twitter_archive_enhanced.csv file, this file was downloaded manually and uploaded to the project workspace and finally imported to our working environment using Pandas function “pd.read_csv()” creating “archive_df”.
+2. Image_predictions.tsv file, this is the second file that was hosted on a webpage and imported from its URL using Requests library function “get()” and Pandas function “read_csv()” creating “image_predictions_df”. (Note: This file contains image predictions for the rated dogs).
 3. The final dataset was gathered from Twitter API via tweepy library, alternatively via the provided “tweet_json.txt” creating “api_df”.
 
 
