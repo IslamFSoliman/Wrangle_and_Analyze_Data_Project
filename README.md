@@ -1,7 +1,7 @@
 # Wrangle and Analyze Data
-## Udacity Data Analysis Professional Nano-Degree January 2021  - March 2021.
+## Udacity Professional Data Analysis Nano-Degree
 
-### Project 2: Wrangle and Analyze Data - WeRateDogs twitter account
+### Wrangle and Analyze Data - WeRateDogs twitter account
 
 [Click to preview report](https://github.com/IslamFSoliman/Wrangle_and_Analyze_Data_Project/blob/main/wrangle_report.pdf)
 
